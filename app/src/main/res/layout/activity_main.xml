@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff9fe">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="216dp"
+        android:background="#efefef"
+        android:ems="10"
+        android:hint="Email Id"
+        android:inputType="textPersonName"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="29dp"
+        android:background="#efefef"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:text="Smart Login Page"
+        android:textSize="27dp"
+        android:textColor="#ff9900"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+
+        android:background="#ff9900"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/checkBox" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="New User? \n Sign in"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:background="#ff9900"
+        android:padding="8dp"
+        android:layout_alignBaseline="@+id/checkBox"
+        android:layout_alignBottom="@+id/checkBox"
+        android:layout_alignEnd="@+id/editText2"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Remember Me"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:background="#ff9900"
+        android:padding="8dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
+</RelativeLayout>

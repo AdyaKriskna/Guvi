@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "49071266162",
+    "firebase_url": "https://tipflatt-a31bc.firebaseio.com",
+    "project_id": "tipflatt-a31bc",
+    "storage_bucket": "tipflatt-a31bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49071266162:android:fcd051b38b170220",
+        "android_client_info": {
+          "package_name": "com.example.android.guvi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49071266162-g38j0jl884pe481gnssq4r4tpaaf1b8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.guvi",
+            "certificate_hash": "7e781df5fd91f2ef42cfae57c62582c95e9486c4"
+          }
+        },
+        {
+          "client_id": "49071266162-7ptu57jm7s705dtberm3tr4lthsfbp35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-kXMLwaolkjDWuX6bjXQvJRlXc8skAkg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49071266162-7ptu57jm7s705dtberm3tr4lthsfbp35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

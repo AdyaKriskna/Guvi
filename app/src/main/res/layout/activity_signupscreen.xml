@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:background="#047fa7"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:text="Smart Registration"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+            <EditText
+                android:id="@+id/organization_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="#f4f4f4"
+                android:hint="Organization Name"
+                android:textColorHint="#047fa7"
+                android:padding="10dp"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:theme="@style/AlertDialog.AppCompat.Light"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="#f4f4f4" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#f4f4f4"
+                android:textColorHint="#047fa7"
+                android:hint="Address"
+                android:padding="10dp"
+                android:textSize="15dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autocomplete"
+                android:textColorHint="#047fa7"
+                android:background="#f4f4f4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:hint="Country"
+                android:textSize="15dp"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/pincode"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#f4f4f4"
+                android:hint="Pincode"
+                android:padding="10dp"
+                android:inputType="number"
+                android:textColorHint="#047fa7"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#f4f4f4"
+                android:hint="Email"
+                android:textColorHint="#047fa7"
+                android:padding="10dp"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/office_number"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#f4f4f4"
+                android:textColorHint="#047fa7"
+                android:hint="Office Number"
+                android:padding="10dp"
+                android:inputType="number"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/mobile_number"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#f4f4f4"
+                android:hint="Mobile number"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColorHint="#047fa7"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/login_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#f4f4f4"
+                android:hint="Login Name"
+                android:textColorHint="#047fa7"
+                android:padding="10dp"
+                android:textSize="15dp" />
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#f4f4f4"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColorHint="#047fa7"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="#f4f4f4"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:textColorHint="#047fa7"
+                android:padding="10dp"
+                android:textSize="15dp" />
+            <Button
+                android:textColor="#047fa7"
+                android:id="@+id/oregister"
+                android:background="#f4f4f4"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColorHint="#047fa7"
+                android:text="Register" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

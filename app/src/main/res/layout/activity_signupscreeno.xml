@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#047fa7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#f4f4f4"
+        android:hint="User Name"
+        android:textColorHint="#047fa7"
+        android:padding="10dp"
+        android:inputType="text"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/ppassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#f4f4f4"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#047fa7"
+        android:padding="10dp"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/pcon_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#f4f4f4"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColorHint="#047fa7"
+        android:padding="10dp"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#f4f4f4"
+        android:hint="Date Of Birth"
+        android:inputType="date"
+        android:textColorHint="#047fa7"
+        android:padding="10dp"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/pmobile_number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#f4f4f4"
+        android:hint="Moblie Number"
+        android:inputType="number"
+        android:textColorHint="#047fa7"
+        android:padding="10dp"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/paddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#f4f4f4"
+        android:hint="Address"
+        android:inputType="text"
+        android:textColorHint="#047fa7"
+        android:padding="10dp"
+        android:textSize="15dp" />
+    <AutoCompleteTextView
+        android:id="@+id/autocomplet"
+        android:hint="Country"
+        android:textColorHint="#047fa7"
+        android:background="#f4f4f4"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/ppincode"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="10dp"
+    android:background="#f4f4f4"
+    android:hint="Pincode"
+    android:inputType="number"
+    android:textColorHint="#047fa7"
+    android:padding="10dp"
+    android:textSize="15dp" />
+    <EditText
+        android:id="@+id/pemail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#f4f4f4"
+        android:hint="Email Id"
+        android:inputType="text"
+        android:textColorHint="#047fa7"
+        android:padding="10dp"
+        android:textSize="15dp" />
+    <Button
+        android:id="@+id/pregister"
+        android:textColor="#047fa7"
+        android:text="Register"
+        android:background="#f4f4f4"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+</LinearLayout>
+</ScrollView>
